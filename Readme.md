@@ -25,8 +25,7 @@
     The following image shows the web Weather dashboard appearance and functionality:
 
 ## Links
-    GIT:
-    Link:
-    
+    Link: https://dan13l80.github.io/Weather-Dashboard/
+
 
 

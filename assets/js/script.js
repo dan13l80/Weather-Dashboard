@@ -14,7 +14,7 @@ function searchCoordsFunction() {
 // function to fetch current weather 
     let cityName = document.querySelector("#search input").value;
   
-    let currentApiUrl = "api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
+    let currentApiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
     fetch(currentApiUrl)
       .then(function (response) {
         if (response.ok) {
