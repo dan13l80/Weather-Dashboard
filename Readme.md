@@ -23,9 +23,8 @@
 
 ##  Screenshot
     The following image shows the web Weather dashboard appearance and functionality:
+    ![Mockup Image](assets/images/img0.png)
+![Mockup Image](assets/images/img1.png)
 
-## Links
-    Link: https://dan13l80.github.io/Weather-Dashboard/
-
-
-
+## Website
+[Weather Dashboard](https://dan13l80.github.io/Weather-Dashboard/)
