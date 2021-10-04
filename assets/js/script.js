@@ -13,7 +13,6 @@ function searchCoordsFunction() {
   
 // function to fetch current weather 
     let cityName = document.querySelector("#search input").value;
-  
     let currentApiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
     fetch(currentApiUrl)
       .then(function (response) {
@@ -37,7 +36,7 @@ function weatherFunction(cityName, dt, lat, lon, APIKey) {
       today: {},
       forecast: {}
     };
-    let oneCallApiUrl = "api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&dt=" + dt + "&units=imperial&appid=" + APIKey;
+    let oneCallApiUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&dt=" + dt + "&units=imperial&appid=" + APIKey;
     
     // send coordinates to fetch one call
     fetch(oneCallApiUrl).then(function (response) {
