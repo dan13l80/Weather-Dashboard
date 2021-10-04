@@ -7,6 +7,35 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+    <header>Weather Dashboard</header>
+    <main class="container-fluid">
+        <section class="row">
+            <div id="search" class="col-3">
+                <div id="top">
+                    <div>Search for a City:</div>
+                    <input type="text" class="form-control" placeholder="Enter a City Here">
+                    <button class="btn btn-primary" onclick="searchCoordsFunction()">Search</button>
+                </div>
+                <div id="bottom">
+                </div>
+            </div>
+
+            <div id="display" class="col-9">
+                <div id="today">
+                </div>
+                <div class="">
+                    <h4>5 Day Forecast:</h4>
+                </div>
+                <div id="forecast" class="d-flex justify-content-between gap-3">
+                    <div class="day1"></div>
+                    <div class="day2"></div>
+                    <div class="day3"></div>
+                    <div class="day4"></div>
+                    <div class="day5"></div>
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>
