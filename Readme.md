@@ -23,7 +23,7 @@
 
 ##  Screenshot
     The following image shows the web Weather dashboard appearance and functionality:
-    ![Mockup Image](assets/images/img0.png)
+![Mockup Image](assets/images/img0.png)
 ![Mockup Image](assets/images/img1.png)
 
 ## Website
